@@ -52,4 +52,23 @@
   left: 0;
   position: absolute;
   width: 9px;
+}/* Game field styles */
+#game {
+  position: relative;
+  width: 400px; /* Width of the game field */
+  height: 400px; /* Height of the game field */
+  background-color: #000; /* Background color of the game field */
+  border: 1px solid #333; /* Border around the game field */
 }
+
+/* Dodger styles */
+#dodger {
+  position: absolute; /* Positioning relative to the game field */
+  bottom: 0; /* Positioned at the bottom */
+  left: 180px; /* Initial horizontal position */
+  width: 40px; /* Width of the dodger */
+  height: 20px; /* Height of the dodger */
+  background-color: #FF69B4; /* Color of the dodger */
+}
+
+
